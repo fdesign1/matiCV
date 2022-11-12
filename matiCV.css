@@ -1,0 +1,82 @@
+*{
+
+}
+.container{
+    margin-bottom: 30px;
+    width: 100vw;
+    display: grid;
+    grid-gap:40px;
+    grid-template-areas:"header header header header"
+                        "sidebar anios exp exp"
+                        "sidebar anios exp exp"          
+}
+h5{
+    text-decoration: underline;
+}
+.item{
+    /*poner aca un background color para ver las areas **/
+}
+.header{
+    background-image: url('https://i.pngimg.me/thumb/f/720/34b84e428dd040619396.jpg');
+    margin-top: 20px;
+    grid-area: header;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-direction: row;
+}
+#Nombre{
+    text-decoration: none;
+    font-size: 40px;}
+img:hover {filter: grayscale(80%);}
+.MatiPhoto{
+    border: solid black;
+}
+
+.sidebar{
+border: solid black;
+background-color: gray;
+grid-area: sidebar;
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+margin-right: 100px;
+padding-left: 20px;
+padding-top: 10px;
+padding-right: 10px;
+}
+.profile{
+    margin-top: 0px;
+}
+.exp{
+    grid-area: exp;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content:flex-start;
+    background-color: whitesmoke
+    }
+.company{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    align-content: flex-start;
+    justify-content: flex-start;
+}
+hr{
+    height: 1px;
+    background-color: black;
+  }
+  li{
+    font-size: 13.5px;
+    font-style: italic;
+}
+h7{
+    font-style: oblique;
+}
+span{
+    color: rgb(77, 96, 77);
+}
+
+
+ 
