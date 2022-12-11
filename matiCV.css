@@ -11,6 +11,8 @@
                         "sidebar anios exp exp"          
 }
 h5:hover{
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
     background-color: gray;
     opacity: 1;
     border-radius: 7px;
@@ -20,11 +22,14 @@ h5:hover{
 #Electro{
    color: #434342;
 }
+.descripcion{
+    font-family: 'Roboto', sans-serif;
+}
 .item{
     /*poner aca un background color para ver las areas **/
 }
 .header{
-    background-image: url('https://i.pngimg.me/thumb/f/720/34b84e428dd040619396.jpg');
+    background-image:url('https://i.pngimg.me/thumb/f/720/34b84e428dd040619396.jpg');
     margin-top: 20px;
     grid-area: header;
     display: flex;
@@ -38,6 +43,7 @@ h5:hover{
 img:hover {filter: grayscale(30%);}
 .MatiPhoto:hover{
     border: solid black;
+    
 }
 .sidebar{
 border: solid black;
@@ -73,8 +79,14 @@ hr{
     background-color: black;
   }
   li{
+    font-family: 'roboto';
     font-size: 13.5px;
-    font-style: italic;
+}
+button{
+font-family: 'roboto';
+font-weight: bold;
+background: rgb(86, 127, 80);
+
 }
 h7{
     font-style: oblique;
