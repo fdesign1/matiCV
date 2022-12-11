@@ -40,9 +40,12 @@ h5:hover{
 #Nombre{
     text-decoration: none;
     font-size: 40px;}
+.MatiPhoto{
+    border-radius: 700px;}
 img:hover {filter: grayscale(30%);}
 .MatiPhoto:hover{
-    border: solid black;
+    border: solid rgb(79, 73, 73);
+    border-radius: 700px;
     
 }
 .sidebar{
